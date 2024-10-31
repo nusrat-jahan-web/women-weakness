@@ -3,34 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- Font Awesome 5 CSS -->
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'>
+<!-- Products List CSS -->
+<link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Matemasie&family=Sofadi+One&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ 	
+
+  <link rel="stylesheet" href="./library/bootstrap-ecommerce-product-list-with-navbar-hover/css/style.css">
+  <link rel="stylesheet" href="./library/animating-grid-column-on-hover-using-css/css/style.css">
   <link rel="stylesheet" href="./library/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Sofadi+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="./library/slick/slick.css"/>
+  <!-- // Add the new slick-theme.css if you want the default styling -->
+  <link rel="stylesheet" type="text/css" href="./library/slick/slick-theme.css"/>
+     
 <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style.css">
+
+
+  
+
+
+
+  
 </head>
 <body>
 
   <!-- topber -->
 
-  <section class= "bg-orange-200 w-[100%] h-[100px] ">
+  <section class= "bg-blue-900 w-[100%] h-[100px] ">
    <div  class=" flex justify-between p-[10px] ">
      <div>
       <!-- whatsapp -->
       <div  class="flex gap-3">
-        <i class="fa fa-whatsapp text-[green] text-[30px] "  aria-hidden="true"></i>
-        <p>01757198961</p>
+        <i class="fa fa-whatsapp text-[#35df35] text-[30px] "  aria-hidden="true"></i>
+        <p class="text-[white]">01757198961</p>
       </div>
-      <span>nusratjahanweb89@gmail.com</span>
+      <span class="text-[white]">nusratjahanweb89@gmail.com</span>
     </div>
 
-    <div class="flex  gap-5" >
-      <i class="fa fa-facebook text-[30px] text-[blue]" aria-hidden="true"></i>
-      <i class="fa fa-twitter text-[30px] text-[blue]" aria-hidden="true"></i>
+
+    <marquee behavior="scrollamount" direction="scrolldelay" class="text-[36px] text-[#fefdfd] font-bold flex justify-center items-center w-[600px] welcome_msg">
+      
+      Welcome to my business website on WomEn's WeakNess................ Welcome to my business website on WomEn's WeakNess................ Welcome to my business website on WomEn's WeakNess................
+    </marquee>
+
+    <div class="flex  gap-10 m-[20px] justify-center items-center"  >
+      <i class="fa fa-facebook text-[30px] text-[white]" aria-hidden="true"></i>
+      <i class="fa fa-twitter text-[30px] text-[white]" aria-hidden="true"></i>
 
     </div>
 
@@ -43,8 +74,8 @@
 
 
 <!-- navbar started -->
- <section clas="w-full flex justify-between">
-  <div class="  navbar bg-base-100  w-[100%]">
+ <section class="w-full ">
+  <div class="  navbar bg-base-100  w-[100%] flex-nowrap">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -71,7 +102,7 @@
       </div>
     </div>
     <div class="navbar-center">
-     <img src="./photos/logo.png" class="w-[150px] h-[150px]" alt="">
+     <img src="./photos/logo.png" class="w-[150px] h-[180px]" alt="">
     </div>
     <div class="navbar-end">
       <button class="btn btn-ghost btn-circle">
@@ -117,18 +148,18 @@
       <!-- heroarea img part-->
      <div> 
        
-       <div class=" w-[100%]">
-            <img src="./photos/1131407.jpg" class=" h-[900px] w-[100%] hero_area "alt="">
-        
+       <div class="hero_area">
+            <!-- <img src="./photos/sharee/5bc79da1-9e25-498f-b476-b150a0eede23.jpeg" class=" h-[900px] w-[100%] hero_area "alt="">
+         -->
        <div class="hero_area_transparent h-[800px] w-full  " >
       
 
       <!-- hero area text part -->
-             <div class="  right-0">
-              <div class="flex-col justify-center items-center  w-full right-0   ">
-                  <h1 class="text-[42px] text-[white] font-extralight w-[350px] ">Handcrafted & Ethically Sourcsed</h1>
-                  <p class="text-[white] text-[28px] mt-[20px] leading-5">Save up to $500 on outdoor packages</p>
-                  <button class="btn btn-primary mt-[40px]">Learn More</button>
+             <div class="ml-[100px]">
+              <div class="flex-col justify-center items-start  right-0  heroarea_text  ">
+                  <h1 class="text-[50px]  font-extralight w-[500px]  hero_area_h1">Handcrafted & Ethically Sourcsed</h1>
+                  <p class=" text-[28px] mt-[20px] leading-5 text-[red]">Save up to $500 on outdoor packages</p>
+                  <button class="btn btn-primary mt-[40px]"><a href="./learn_more.html">Learn More</a></button>
             </div>
           </div>
         </div>
@@ -142,14 +173,36 @@
    <section class="container w-[100%] m-[auto]">
     <div>
       <h1 class="text-[40px] mt-[100px] font-semibold flex justify-center"> FIRST WEAKNWESS FOR WOMEN'S</h1>
+      
       <hr class=" border-2 border-orange-600 w-[600px] m-[auto]  flex justify-center items-center ">
   </div>
 
-  <div class=" ">
-    <div class="bg-slate-50 h-[800px] w-[600px] shadow-2xl ">
+  <div >
+    <div class="bg-slate-100 h-[700px] w-[1280px] shadow-2xl flex mt-[100px]">
+
      
+      <div class="sharee_part h-[700px] w-[600px] ">
+      <img src="./photos/sharee/images (9).jpeg"class="h-[700px] w-[600px]   bg-attachment-[fixed] att sharee_dokan "  alt="">
+     </div>
+     <div class="w-[500px] m-[auto] " >
+      <div class="flex justify-between">
+        <div class="flex gap-5 ">
+          <i class="fa fa-ellipsis-h " aria-hidden="true"></i>
+          <i class="fa fa-heart-o" aria-hidden="true"></i>
+          <i class="fa fa-download" aria-hidden="true"></i>
+        </div>
+        <button class="btn bg-red-700 text-[white] text-[20px] font-medium">Save</button>
+      </div>
+
+      <!-- text part -->
       <div>
-      <img src="./photos/sharee/images (9).jpeg"class="h-[700px] w-[600px]  mt-[100px] bg-attachment-[fixed] att sharee_dokan "  alt="">
+        <p class="underline">WomEn's WeakNess.com</p>
+
+        <h1 class="text-black text-[34px] font-semibold leading-10 mt-[20px]"> Looking South Indian silk Saree Designs Pics 2024</h1>
+        <p class="text-slate-500 text-[18px] mt-[30px] ">These stunningly hot and beautiful Indian heroines in sarees are must-check ones. You will love their designs and colours too!</p>
+      </div>
+
+      <button class="btn btn-warning text-[black] font-bold mt-[20px]">Purches</button>
      </div>
   </div>
 
@@ -199,16 +252,173 @@
   </table>
   </section>
 
-    
+
+  <!-- sharee slider -->
+
+  <section class="w-full">
+    <div class="bg_ing_sharee h-auto w-[100%] mt-[100px]">
+      <div class="bg_ing_sharee_transparent h-[800px] w-[100%]">
+        <!-- bg img done -->
+
+
+         <div class= "shari_slider_part grid !gap-4">
+          
+        
+           <div class= "bg-white shadow-2xl h-[600px] w-[270px] m-[auto] mt-[100px] ">
+            <div>
+              <img src="./photos/sharee/f7b764483caa0143a21a2a07cbf308e1.jpg" class="h-[350px] w-[290px] m-[auto] share_img_overflow mt-[5px]"
+               alt="">
+               <h1 class="text-[orangered] text-[20px] font-bold mt-[10px] text-center">Jamdani Blue Sharee</h1>
+               <p class="text-[#615a5a] text-[16px]  mt-[10px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, hic amet sunt reiciendis assumenda provident labore saepe dolores alias autem!</p>
+            </div>
+          </div>
+
+            <div class="bg-white shadow-2xl h-[600px] w-[300px] m-[auto] mt-[100px] ">
+              <div>
+                <img src="./photos/sharee/74526164_10156577710505373_3245745367278419968_n.jpg " class="h-[350px] w-[290px] m-[auto] share_img_overflow mt-[5px]"
+                 alt="">
+                 <h1 class="text-[orangered] text-[20px] font-bold mt-[10px] text-center">Jamdani Blue Sharee</h1>
+                 <p class="text-[#615a5a] text-[16px]  mt-[10px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, hic amet sunt reiciendis assumenda provident labore saepe dolores alias autem!</p>
+              </div>
+            </div>
+              
+               <div class="bg-white shadow-2xl h-[600px] w-[300px] m-[auto] mt-[100px] ">
+                <div>
+                  <img src="./photos/sharee/d3d0952b64c51905e61d60c9d695471c.jpg " class="h-[350px] w-[290px] m-[auto] share_img_overflow mt-[5px]"
+                   alt="">
+                   <h1 class="text-[orangered] text-[20px] font-bold mt-[10px] text-center">Jamdani Blue Sharee</h1>
+                   <p class="text-[#615a5a] text-[16px]  mt-[10px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, hic amet sunt reiciendis assumenda provident labore saepe dolores alias autem!</p>
+                </div>
+              </div>
+
+
+                 <div class="bg-white shadow-2xl h-[600px] w-[300px] m-[auto] mt-[100px] ">
+                  <div>
+                    <img src="./photos/sharee/ecfdb3528e3138ea44f2cf15c531a215.jpg " class="h-[350px] w-[290px] m-[auto] mt-[5px] share_img_overflow"
+                     alt="">
+                     <h1 class="text-[orangered] text-[20px] font-bold mt-[10px] text-center">Jamdani Blue Sharee</h1>
+                     <p class="text-[#615a5a] text-[16px]  mt-[10px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, hic amet sunt reiciendis assumenda provident labore saepe dolores alias autem!</p>
+                  </div>
+                </div>
+        
+
+
+           <div class="bg-white shadow-2xl h-[600px] w-[300px] m-[auto] mt-[100px] ">
+           <div>
+             <img src="./photos/sharee/f7b764483caa0143a21a2a07cbf308e1.jpg" class="h-[350px] w-[290px] m-[auto] share_img_overflow mt-[5px]"
+              alt="">
+              <h1 class="text-[orangered] text-[20px] font-bold mt-[10px] text-center">Jamdani Blue Sharee</h1>
+              <p class="text-[#615a5a] text-[16px]  mt-[10px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, hic amet sunt reiciendis assumenda provident labore saepe dolores alias autem!</p>
+           </div>
+         </div>
+
+         
+           <div class="bg-white shadow-2xl h-[600px] w-[300px] m-[auto] mt-[100px] ">
+             <div>
+               <img src="./photos/sharee/74526164_10156577710505373_3245745367278419968_n.jpg " class="h-[350px] w-[290px] m-[auto] share_img_overflow mt-[5px]"
+                alt="">
+                <h1 class="text-[orangered] text-[20px] font-bold mt-[10px] text-center">Jamdani Blue Sharee</h1>
+                <p class="text-[#615a5a] text-[16px]  mt-[10px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, hic amet sunt reiciendis assumenda provident labore saepe dolores alias autem!</p>
+             </div>
+           </div>
+
+
+              <div class="bg-white shadow-2xl h-[600px] w-[300px] m-[auto] mt-[100px] ">
+               <div>
+                 <img src="./photos/sharee/d3d0952b64c51905e61d60c9d695471c.jpg " class="h-[350px] w-[290px] m-[auto] share_img_overflow mt-[5px]"
+                  alt="">
+                  <h1 class="text-[orangered] text-[20px] font-bold mt-[10px] text-center">Jamdani Blue Sharee</h1>
+                  <p class="text-[#615a5a] text-[16px]  mt-[10px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, hic amet sunt reiciendis assumenda provident labore saepe dolores alias autem!</p>
+               </div>
+             </div>
+
+               
+
+                <div class="bg-white shadow-2xl h-[600px] w-[300px] m-[auto] mt-[100px] ">
+                 <div>
+                   <img src="./photos/sharee/ecfdb3528e3138ea44f2cf15c531a215.jpg " class="h-[350px] w-[290px] m-[auto] mt-[5px] share_img_overflow"
+                    alt="">
+                    <h1 class="text-[orangered] text-[20px] font-bold mt-[10px] text-center">Jamdani Blue Sharee</h1>
+                    <p class="text-[#615a5a] text-[16px]  mt-[10px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, hic amet sunt reiciendis assumenda provident labore saepe dolores alias autem!</p>
+                 </div>
+               </div>
+             
+          </div>
+
+       </div>
+
+    </div>
+
+   
+  
+  </section>
+
+  <!-- first weakness done -->
+
+
+  <!-- curi items startes -->
+
+
+  <section class=" w-full mx-auto ">
+    <div class="flex gap-8 mt-[100px] justify-center">
+      <i class="fa fa-heart text-[violet] text-[40px]" aria-hidden="true"></i> <h1 class="text-[40px] font-semibold flex justify-center segment_of_churi mb-[100px]">SEGMENT of CHURI</h1> <i class="fa fa-heart text-[violet] text-[40px]" aria-hidden="true"></i>
+  </div>
+
+  <!-- churi jquary part -->
+   <!-- -->
+  
+  
+  
+  <div id="grid" class="mx-auto w-[80%]">
+	  <div class="left"></div>
+	  <div class="middle"></div>
+	  <div class="right"></div>
+ </div>
+</section>
+  
+  <!-- jquary part end -->
+
+
+
+
+  <!-- churi part -->
+  
+  
+  
+  
+  
+  
+   
+
 
       <!-- jquery -->
-   <section class="mt-[150px]" >
-    <div class= "flex justyfy-center gap-10 ">
+   <section class=" container mt-[150px]" >
+    <div class= "flex justyfy-center gap-[100px] ">
 
-    <div class="bg-slate-100 h-[500px] w-[400px] shadow-2xl border-collapse border-solid border-2 border-orange-200">
+    <div class="bg-slate-100 h-[500px] w-[500px] shadow-2xl border-collapse border-solid border-2 border-orange-200 overflow-hidden">
+    <marquee direction="up" scrollamount ="4" scrolldelay="150" class=" w-[200]">
+
+    <div class="h-[500] text-center ">
+      <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit veniam nobis nesciunt fugit unde soluta, sit rerum. Eos minus dolores beatae impedit, delectus dolor minima autem distinctio quam quas!
-    </div>
-      <article class="gallery">
+    </p>
+
+    <br>
+    <br>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit veniam nobis nesciunt fugit unde soluta, sit rerum. Eos minus dolores beatae impedit, delectus dolor minima autem distinctio quam quas!</p>
+      <br>
+      <br>
+     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit veniam nobis nesciunt fugit unde soluta, sit rerum. Eos minus dolores beatae impedit, delectus dolor minima autem distinctio quam quas!</p>
+     <br>
+     <br>
+     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit veniam nobis nesciunt fugit unde soluta, sit rerum. Eos minus dolores beatae impedit, delectus dolor minima autem distinctio quam quas!</p>
+    </marquee>
+  </div>
+    
+
+   <div class="bg-gray-200 shadow-2xl border-collapse border-1 border-solid border-orange-300 ">
+      <article class="gallery justify-center ">
         <img src="./photos/Snapchat-991566581.jpg" alt="guitar player at concert" />
         <img src="./photos/Snapchat-1787658097.jpg" alt="duo singing" />
         <img src="https://assets.codepen.io/1506195/unsplash-music-2.avif" alt="crowd cheering" />
@@ -218,6 +428,7 @@
         <img src="https://assets.codepen.io/1506195/unsplash-music-6.avif" alt="crowd looking at a lighted stage" />
         <img src="https://assets.codepen.io/1506195/unsplash-music-7.avif" alt="woman singing on stage" />
       </article>
+    </div>
     </div>
 
 
@@ -233,7 +444,349 @@
 
 
 
+<!-- curi selling product -->
+ <div class="flex gap-3 mt-[100px]">
+<i class="fa fa-heart text-[blue] text-[40px]" aria-hidden="true"></i><h1 class="text-[orangered] text-[48px]  flex justify-center ">Price's of Churi</h1> <i class="fa fa-heart text-[blue] text-[40px]" aria-hidden="true"></i>
 
+ </div>
+<div class="container bg-white mt-[100px]">
+
+  <nav class="navbar navbar-expand-md navbar-light bg-white">
+      <div class="container-fluid p-0"> <a class="navbar-brand text-uppercase fw-800" href="#"><span class="border-red pe-2">New</span>Product</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+          <div class="collapse navbar-collapse" id="myNav">
+              <div class="navbar-nav ms-auto"> <a class="nav-link active" aria-current="page" href="#">All</a> <a class="nav-link" href="#">Women's</a> <a class="nav-link" href="#">Men's</a> <a class="nav-link" href="#">Kid's</a> <a class="nav-link" href="#">Accessories</a> <a class="nav-link" href="#">Cosmetics</a> </div>
+          </div>
+      </div>
+  </nav>
+  <div class="row">
+      <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+          <div class="product"> <img src="./photos/sharee/5fc24b093fb80d745aaa6dd067f612e5.jpg" alt="">
+              <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                  <li class="icon mx-3"><span class="far fa-heart"></span></li>
+                  <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+              </ul>
+          </div>
+          <div class="tag bg-red">sale</div>
+          <div class="title pt-4 pb-1">Winter Sweater</div>
+          <div class="d-flex align-content-center justify-content-center"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> </div>
+          <div class="price">$ 60.0</div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+          <div class="product"> <img src="./photos/churi/image.png" alt="">
+              <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                  <li class="icon mx-3"><span class="far fa-heart"></span></li>
+                  <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+              </ul>
+          </div>
+          <div class="tag bg-black">out of stock</div>
+          <div class="title pt-4 pb-1">Denim Dresses</div>
+          <div class="d-flex align-content-center justify-content-center"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> </div>
+          <div class="price">$ 55.0</div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+          <div class="product"> <img src="./photos/churi/5b80e6b6ac98b43fd4a48241000723d6.jpg" alt="">
+              <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                  <li class="icon mx-3"><span class="far fa-heart"></span></li>
+                  <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+              </ul>
+          </div>
+          <div class="tag bg-green">new</div>
+          <div class="title pt-4 pb-1"> Empire Waist Dresses</div>
+          <div class="d-flex align-content-center justify-content-center"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> </div>
+          <div class="price">$ 70.0</div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+          <div class="product"> <img src="./photos/churi/bng331-2.4-size-new-pattern-gold-look-thin-bangles-design-gold-plated-jewellery-online-2-850x1000.jpg.jpeg" alt="">
+              <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                  <li class="icon mx-3"><span class="far fa-heart"></span></li>
+                  <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+              </ul>
+          </div>
+          <div class="title pt-4 pb-1">Pinafore Dresses</div>
+          <div class="d-flex align-content-center justify-content-center"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> </div>
+          <div class="price">$ 60.0</div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+          <div class="product"> <img src="./photos/churi/402c7e9bb69bc61d23d505e79d4ba1d6.jpg" alt="">
+              <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                  <li class="icon mx-3"><span class="far fa-heart"></span></li>
+                  <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+              </ul>
+          </div>
+          <div class="tag bg-red">sale</div>
+          <div class="title pt-4 pb-1">Winter Sweater</div>
+          <div class="d-flex align-content-center justify-content-center"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> </div>
+          <div class="price">$ 60.0</div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+          <div class="product"> <img src="./photos/churi/images.png" alt="">
+              <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                  <li class="icon mx-3"><span class="far fa-heart"></span></li>
+                  <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+              </ul>
+          </div>
+          <div class="tag bg-black">out of stock</div>
+          <div class="title pt-4 pb-1">Denim Dresses</div>
+          <div class="d-flex align-content-center justify-content-center"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> </div>
+          <div class="price">$ 55.0</div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+          <div class="product"> <img src="./photos/churi/bf3c83e5-0c52-42f6-815c-fc3d085fdd1c1702272579826-Rubans-Set-Of-2-Gold-Plated-Red-Enamelled-Bangles-2191702272-2.jpg" alt="">
+              <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                  <li class="icon mx-3"><span class="far fa-heart"></span></li>
+                  <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+              </ul>
+          </div>
+          <div class="title pt-4 pb-1"> Empire Waist Dresses</div>
+          <div class="d-flex align-content-center justify-content-center"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> </div>
+          <div class="price">$ 70.0</div>
+      </div>
+      <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+          <div class="product"> <img src="./photos/churi/1507.jpg" alt="">
+              <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                  <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                  <li class="icon mx-3"><span class="far fa-heart"></span></li>
+                  <li class="icon"><span class="fas fa-shopping-bag"></span></li>
+              </ul>
+          </div>
+          <div class="tag bg-green">new</div>
+          <div class="title pt-4 pb-1">Pinafore Dresses</div>
+          <div class="d-flex align-content-center justify-content-center"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> </div>
+          <div class="price">$ 60.0</div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<!-- ring section -->
+
+<section>
+  <div>
+  <div CLASS="flex gap-10 justify-center mt-[100px]">
+    <i class="fa fa-heart text-[red] text-[40px]" aria-hidden="true"></i><h1 class="text-[52px]">SIGMENT OF RING </h1><i class="fa fa-heart text-[red] text-[40px] " aria-hidden="true"></i>
+  </div>
+
+   <div class="flex mt-[100px] mb-[100px]  bg-white shadow-2xl h-[600px]  w-[1280px] ">
+   <div>
+    
+      <img src="./photos/ring items/Shiree_Odiz_(5).jpg" class="h-[600px] w-[600px] justify-center" alt="">
+
+    </div>
+    <div class="w-[600px] justify-between  m-[auto]   " >
+      <div class="flex justify-center  gap-11  ">
+        <div class="flex gap-5 ">
+          <i class="fa fa-ellipsis-h " aria-hidden="true"></i>
+          <i class="fa fa-heart-o" aria-hidden="true"></i>
+          <i class="fa fa-download" aria-hidden="true"></i>
+        </div>
+        <button class="btn bg-red-700 text-[white] text-[20px] font-medium">Save</button>
+      </div>
+
+      <!-- text part -->
+      <div>
+        <p class="underline">WomEn's WeakNess.com</p>
+
+        <h1 class="text-black text-[34px] font-semibold leading-10 mt-[20px]"> Looking South Indian silk Saree Designs Pics 2024</h1>
+        <p class="text-slate-500 text-[18px] mt-[30px] ">These stunningly hot and beautiful Indian heroines in sarees are must-check ones. You will love their designs and colours too!</p>
+      </div>
+
+      <button class="btn btn-warning text-[black] font-bold mt-[20px]">Purches</button>
+     </div>
+    </div>
+   </div>
+
+
+</div>
+</section>
+
+<!--  -->
+
+
+<section>
+  <div class="flex flex-wrap md:flex-nowrap gap-7 mt-[100px]">
+    <div class="bg-white h-[400px]  w-[400px] shadow-2xl border-1 border-solid border-orange-300   mb-[100px] ">
+
+      <div>
+        <img src="./photos/ring items/e5af8eb847b7aa6bb7b7079d1011cb2b.jpg_720x720q80.jpg" class="h-[300px] w-[380px] mx-auto ring_overfolow" alt="">
+
+        <div class="text-center">
+          <h1 class="text-orange-700 text-[32px] ">DAIMOND CUT RING</h1>
+          <P class="text-primary">Price : 30.00 $</P>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 2 -->
+
+    <div class="bg-white h-[400px]  w-[400px] shadow-2xl border-1 border-solid border-orange-300   mb-[100px] mt-[200px]">
+
+      <div>
+        <img src="./photos/ring items/image.png" class="h-[300px] w-[400px] mx-auto ring_overfolow" alt="">
+
+        <div class="text-center">
+          <h1 class="text-orange-700 text-[32px] ">DAIMOND CUT RING</h1>
+          <P class="text-primary">Price : 30.00 $</P>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 3 -->
+
+    <div class="bg-white h-[400px]  w-[400px] shadow-2xl border-1 border-solid border-orange-300   mb-[100px]">
+
+      <div>
+        <img src="./photos/ring items/Screenshot 2024-10-30 114920.png" class="h-[300px] w-[400px] mx-auto ring_overfolow" alt="">
+
+        <div class="text-center">
+          <h1 class="text-orange-700 text-[32px] ">DAIMOND CUT RING</h1>
+          <P class="text-primary">Price : 40.00 $</P>
+        </div>
+      </div>
+
+    </div>
+
+     
+
+    </div>
+  </div>
+
+<div class="flex justify-center">
+  <button class="btn btn-warning  mx-auto"><a href="./learn_more.html"> Show More </a></button>
+</div>
+</section>
+
+
+<!-- nupur section -->
+
+<section class="mt-[100px]">
+<div>
+  <div class="flex gap-10 justify-center">
+    <i class="fa fa-heart text-[green] text-[40px]" aria-hidden="true"></i> <h1 class="text-[orangered] text-[48px] text-center ">PRICE'S OF NUPUR</h1> <i class="fa fa-heart text-[green] text-[40px]" aria-hidden="true"></i>
+  </div>
+
+  <div class="  flex  mx-auto mt-[100px] ">
+
+
+    <div class="flex flex-wrap gap-[50px] justify-center" >
+      <div>
+      <img src="./photos/nupur/15096c2cd85470f3c894c253c45dc62d.jpg" class="h-[250px] w-[280px] nupur_overflow " alt="">
+      
+      <p class="text-orange-600 font-bold text-center mt-10">Price:45 $</p>
+    </div>
+
+
+      <div>
+      <img src="./photos/nupur/1e45b64c366117175982c4a76f7b4e04.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+      <p class="text-orange-600 font-bold text-center mt-10">Price:33 $</p>
+      </div>
+
+    <div>
+      <img src="./photos/nupur/28a0962fa537628632aa8643007b5825.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+      <p class="text-orange-600 font-bold text-center mt-10">Price:50 $</p>
+    </div>
+
+    <div>
+      <img src="./photos/nupur/34462affac8dc7d083cb18b3dac9a7cc.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+      <p class="text-orange-600 font-bold text-center mt-10">Price:55 $</p>
+    </div>
+    
+    <div>
+      <img src="./photos/nupur/4a111d0d00970dbbf9367805bac8feec (1).jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+      <p class="text-orange-600 font-bold text-center mt-10">Price:70 $</p>
+      
+    </div>
+
+    <div>
+      <img src="./photos/nupur/5b971e26512c361b8b25cbe3e8b0ba68 (1).jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+      <p class="text-orange-600 font-bold text-center mt-10">Price:20 $</p>
+      
+    </div>
+
+
+    </div>
+
+    <div>
+      <img src="./photos/nupur/55382e77df8bb3b362aea9b781e2c40e.jpg" class="h-[630px] w-[900px] mx-auto nupur_overflow" alt="">
+      <p class="text-orange-600 font-bold text-center mt-10">Price:60 $</p>
+    </div>
+
+  </div>
+
+  <!-- 2 -->
+  <div class="  flex  mx-auto mt-[60px] ">
+  <div>
+    <img src="./photos/nupur/a79eb395071649fe40a6ea6b25dfbfb6.jpg" class="h-[630px] w-[900px] mx-auto nupur_overflow" alt="">
+    <p class="text-orange-600 font-bold text-center mt-10">Price:40 $</p>
+  </div>
+
+  <div class="flex flex-wrap gap-[50px] justify-center" >
+    <div>
+    <img src="./photos/nupur/15096c2cd85470f3c894c253c45dc62d.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+    <p class="text-orange-600 font-bold text-center mt-10">Price:66 $</p>
+  </div>
+
+
+  <div>
+    <img src="./photos/nupur/15096c2cd85470f3c894c253c45dc62d.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+    <p class="text-orange-600 font-bold text-center mt-10">Price:40 $</p>
+  </div>
+
+  <div>
+    <img src="./photos/nupur/15096c2cd85470f3c894c253c45dc62d.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+    <p class="text-orange-600 font-bold text-center mt-10">Price:30 $</p>
+  </div>
+
+  <div>
+    <img src="./photos/nupur/15096c2cd85470f3c894c253c45dc62d.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+    <p class="text-orange-600 font-bold text-center mt-10">Price:45 $</p>
+</div>  
+
+  <div>
+    <img src="./photos/nupur/4b09a9809c0dd892e88589260d3d83e4.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+    <p class="text-orange-600 font-bold text-center mt-10">Price:77 $</p>
+  </div>
+
+  <div>
+    <img src="./photos/nupur/15096c2cd85470f3c894c253c45dc62d.jpg" class="h-[250px] w-[280px] nupur_overflow" alt="">
+    <p class="text-orange-600 font-bold text-center mt-10">Price:44 $</p>
+  </div>
+
+  </div>
+  </div>
+
+</div>
+</section>
+
+ 
+
+
+
+<!-- trusted by logo -->
+<div class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <h2 class="text-center text-lg font-semibold leading-8 text-gray-900">Trusted by the world’s most innovative teams</h2>
+    <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/plus/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor" width="158" height="48">
+      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/plus/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
+      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/plus/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
+      <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/plus/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
+      <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/plus/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
+    </div>
+  </div>
+</div>
 
 
 
@@ -241,26 +794,136 @@
         <!-- footer section -->
 
       
-      <section class="bg-black w-full h-[500px]">
+     
 
-        <div>
-          <h1 class="w-[300px]  text-[white] text-[35px] italic ">Women Weakness</h1>
+      <footer class="footer bg-black text-[white] p-10">
 
-          <p class="text-[white] font-bold">Quick Contact</p>
-          <span class="text-[white] text-[40px]">(+880)-1757198961 </span>
-            <div class="flex gap-4 mt-5">
-              <i class="text-[white] text-[35px]  fa fa-facebook-official" aria-hidden="true">  </i>
-              <i class="text-[white] text-[35px] fa fa-twitter-square" aria-hidden="true"></i>
-              <i class="text-[white] text-[35px] fa fa-instagram" aria-hidden="true"></i>
-              <i class="text-[white] text-[35px] fa fa-youtube-play" aria-hidden="true"></i>
-            </div>
+        <nav>
+          <div>
+            <h1 class="w-[300px]  text-[white] text-[35px] italic ">Women Weakness</h1>
+  
+            <p class="text-[white] font-bold">Quick Contact</p>
+            <span class="text-[white] text-[28px]">(+880)-1757198961 </span>
+              <div class="flex gap-4 mt-5">
+                <i class="text-[white] text-[35px]  fa fa-facebook-official" aria-hidden="true">  </i>
+                <i class="text-[white] text-[35px] fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="text-[white] text-[35px] fa fa-instagram" aria-hidden="true"></i>
+                <i class="text-[white] text-[35px] fa fa-youtube-play" aria-hidden="true"></i>
+              </div>
+  
+        </nav>
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+      <footer class="footer bg-black text-[white] border-base-300 border-t px-10 py-4">
+        <aside class="grid-flow-col items-center">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            class="fill-current">
+            <path
+              d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
+          </svg>
+          <p>
+            ACME Industries Ltd.
+            <br />
+            Providing reliable tech since 1992
+          </p>
+        </aside>
+        <nav class="md:place-self-center md:justify-self-end">
+          <div class="grid grid-flow-col gap-4">
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current">
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current">
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+              </svg>
+            </a>
+          </div>
+        </nav>
+ </footer>
+      
+<script src="./library/bootstrap-ecommerce-product-list-with-navbar-hover/js/Script.js"></script>
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./library/animating-grid-column-on-hover-using-css/js/script.js"></script>
 
 
-          
-        </div>
+<script src="./library/stylish-photo-gallery-grid-in-html-css/js/script.js"></script>
 
-      </section>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="./library/slick/slick.min.js"></script>
 
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('.shari_slider_part').slick({
+   
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows:true,
+  dots:true,
+
+		
+    
+  });
+});
+			
+</script>
+
+
+
+
+				
      
 </body>
 </html>
