@@ -656,8 +656,11 @@ html, body {
 
 /* ring overfolow */
 
+
+
 .ring_overfolow:hover{
     transform: scale(1.1);
+   
 }
 
 .nupur_overflow:hover{

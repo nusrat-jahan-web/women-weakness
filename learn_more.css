@@ -162,20 +162,23 @@ body{
   .hero_area{
    
     background: url(./ring/RingsTopImageMobile.jpg);
+    object-fit: cover;
     height: 700px;
     width: 100%;
     background-size: cover;
+   
     background-attachment: fixed;
+    
   }
 
 /* .hero_area_transparent{
-  background-color:rgba(0, 0, 0, 0.479);
+  background-color:rgba(0, 0, 0, 0.247);
   height: 700px;
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
-} */
-
+}
+ */
 
 
   /*  */
