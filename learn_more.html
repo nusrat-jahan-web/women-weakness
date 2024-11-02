@@ -16,12 +16,22 @@
     <!-- <link rel="stylesheet" href="./library/bottom-navigation-bar-with-indicator-in-javascript"> -->
     <link rel="stylesheet" href="./javaScript.js">
     <link rel="stylesheet" href="./library/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
 
     <link rel="stylesheet" href="./library/simple-rotating-image-carousel/css/style.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="./learn_more.css">
 </head>
 <body>
+  
+
+
+
+
+
+
   <!-- topber -->
     <section class= "bg-blue-900 w-[100%] h-[100px] ">
         <div  class=" flex justify-between p-[10px] ">
@@ -50,84 +60,130 @@
      </section>
      
 <!-- navbar -->
-
 <section>
-<nav class="nav">
-    <ul class="nav__links">
-      <li class="nav__link active">
-        <a href="#"><i class='bx bx-home-alt-2'></i></a>
-      </li>
-      <li class="nav__link">
-        <a href="#"><i class='bx bx-heart' ></i></a>
-      </li>
-      <li class="nav__link">
-        <a href="#"><i class='bx bx-plus-circle' ></i></a>
-      </li>
-      <li class="nav__link">
-        <a href="#"><i class='bx bx-user' ></i></a>
-      </li>
-      <li class="nav__link">
-        <a href="#"><i class='bx bx-bell' ></i></a>
-      </li>
+  <nav class="nav">
+      <ul class="nav__links">
+        <li class="nav__link active">
+          <a href="#"><i class='bx bx-home-alt-2'></i></a>
+        </li>
+        <li class="nav__link">
+          <a href="#"><i class='bx bx-heart' ></i></a>
+        </li>
+        <li class="nav__link">
+          <a href="#"><i class='bx bx-plus-circle' ></i></a>
+        </li>
+        <li class="nav__link">
+          <a href="#"><i class='bx bx-user' ></i></a>
+        </li>
+        <li class="nav__link">
+          <a href="#"><i class='bx bx-bell' ></i></a>
+        </li>
+  
+        <div class="nav__light"></div>
+      </ul>
+    </nav>
+  
+   
+  </section>
 
-      <div class="nav__light"></div>
-    </ul>
-  </nav>
-
- 
+<!-- navber -->
+<section class="w-full ">
+  <div class="  navbar bg-base-100  w-[100%] flex-nowrap">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h7" />
+          </svg>
+        </div>
+        <!-- <ul
+          tabindex="0"
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a>Homepage</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>About</a></li>
+        </ul> -->
+      </div>
+    </div>
+    <div class="navbar-center">
+     <img src="./photos/womenweakness logo.png" class="w-[150px] h-[150px]" alt="">
+    </div>
+    <div class="navbar-end">
+      <button class="btn btn-ghost btn-circle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </button>
+      <button class="btn btn-ghost btn-circle">
+        <div class="indicator">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+          </svg>
+          <span class="badge badge-xs badge-primary indicator-item"></span>
+        </div>
+      </button>
+    </div>
+  </div>
 </section>
 
 
 
-  <section>
-     <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
-        <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-          <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+<!--  -->
+
+
+  
+
+
+
+<!-- hero area started -->
+  <section class="w-full">
+     <div  class="hero_area">
+        <div class="hero_area_transparent">
+
         </div>
-        <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-          <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-        </div>
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Work with us</h2>
-            <p class="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
-          </div>
-          <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-            <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-              <a href="#">Open roles <span aria-hidden="true">&rarr;</span></a>
-              <a href="#">Internship program <span aria-hidden="true">&rarr;</span></a>
-              <a href="#">Our values <span aria-hidden="true">&rarr;</span></a>
-              <a href="#">Meet our leadership <span aria-hidden="true">&rarr;</span></a>
-            </div>
-            <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-              <div class="flex flex-col-reverse gap-1">
-                <dt class="text-base/7 text-gray-300">Offices worldwide</dt>
-                <dd class="text-4xl font-semibold tracking-tight text-white">12</dd>
-              </div>
-              <div class="flex flex-col-reverse gap-1">
-                <dt class="text-base/7 text-gray-300">Full-time colleagues</dt>
-                <dd class="text-4xl font-semibold tracking-tight text-white">300+</dd>
-              </div>
-              <div class="flex flex-col-reverse gap-1">
-                <dt class="text-base/7 text-gray-300">Hours per week</dt>
-                <dd class="text-4xl font-semibold tracking-tight text-white">40</dd>
-              </div>
-              <div class="flex flex-col-reverse gap-1">
-                <dt class="text-base/7 text-gray-300">Paid time off</dt>
-                <dd class="text-4xl font-semibold tracking-tight text-white">Unlimited</dd>
-              </div>
-            </dl>
-          </div>
-        </div>
+       
       </div>
     </section>  
 
 
 
+    <!--  -->
+   
+
+
 <!-- roTATED SECTION -->
 
-<section>
+<section class="mt-[100px]  bg-orange-50 container h-[800px] mx-auto">
+  <div class="flex mt-[200px] gap-10 justify-center">
+  <i class="fa fa-heart text-[blue] text-[40px] mt-[100px]" aria-hidden="true"></i><h1 class="text-[50px] mt-[100px]"> Ring Presentation </h1><i class="fa fa-heart text-[blue] text-[40px] mt-[100px]" aria-hidden="true"></i>
+</div>
   <div class="holder">  
   <div class="spinner">
     <div class="panel a"></div>
@@ -158,9 +214,56 @@
 
 
 
+
+<!--  -->
+
+<section class="w-full container mx-auto">
+  <div>
+  <div CLASS="flex gap-10 justify-center mt-[100px]">
+    <i class="fa fa-heart text-[red] text-[40px]" aria-hidden="true"></i><h1 class="text-[52px]">SIGMENT OF RING </h1><i class="fa fa-heart text-[red] text-[40px] " aria-hidden="true"></i>
+  </div>
+
+   <div class="flex mt-[100px] mb-[100px]  bg-white shadow-2xl h-[700px]  w-[1280px]  border-1 border-solid border-orange-300 ">
+   <div>
+    
+      <img src="./ring/cd7ecb3ee5f09d079524de53f835c801.jpg" class="h-[700px] w-[600px] justify-center ring_objectfit" alt="">
+
+    </div>
+    <div class="w-[600px] justify-between  m-[auto]   " >
+      <div class="flex justify-center  gap-11  ">
+        <div class="flex gap-5 ">
+          <i class="fa fa-ellipsis-h " aria-hidden="true"></i>
+          <i class="fa fa-heart-o" aria-hidden="true"></i>
+          <i class="fa fa-download" aria-hidden="true"></i>
+        </div>
+        <button class="btn bg-red-700 text-[white] text-[20px] font-medium">Save</button>
+      </div>
+
+      <!-- text part -->
+      <div>
+        <p class="underline">WomEn's WeakNess.com</p>
+
+        <h1 class="text-black text-[34px] font-semibold leading-10 mt-[20px]">Diamond cut ring Designs Pics 2024</h1>
+        <p class="text-slate-500 text-[18px] mt-[30px] ">These stunningly hot and beautiful Indian heroines in sarees are must-check ones. You will love their designs and colours too!</p>
+      </div>
+
+      <button class="btn btn-warning text-[black] font-bold mt-[20px]">Purches</button>
+     </div>
+    </div>
+   </div>
+
+
+</div>
+</section>
+
+
+
+
+
+
       <!-- bootstrap animation -->
        <section>
-      <div class="container bg-white">
+      <div class="container bg-whiteb">
         <nav class="navbar navbar-expand-md navbar-light bg-white">
             <div class="container-fluid p-0"> <a class="navbar-brand text-uppercase fw-800" href="#"><span class="border-red pe-2">New</span>Product</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
                 <div class="collapse navbar-collapse" id="myNav">
@@ -170,7 +273,7 @@
         </nav>
         <div class="row">
             <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
-                <div class="product"> <img src="https://images.pexels.com/photos/54203/pexels-photo-54203.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="product"> <img src="./ring/Screenshot 2024-10-30 115445.png"  alt="">
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                         <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
                         <li class="icon mx-3"><span class="far fa-heart"></span></li>
@@ -183,7 +286,7 @@
                 <div class="price">$ 60.0</div>
             </div>
             <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
-                <div class="product"> <img src="https://images.pexels.com/photos/6764040/pexels-photo-6764040.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="product"> <img src="./ring/Screenshot 2024-10-30 114504.png"  alt="">
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                         <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
                         <li class="icon mx-3"><span class="far fa-heart"></span></li>
@@ -196,7 +299,7 @@
                 <div class="price">$ 55.0</div>
             </div>
             <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
-                <div class="product"> <img src="https://images.pexels.com/photos/914668/pexels-photo-914668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="product"> <img src="./ring/Screenshot 2024-10-30 115425.png" alt="">
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                         <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
                         <li class="icon mx-3"><span class="far fa-heart"></span></li>
@@ -209,7 +312,8 @@
                 <div class="price">$ 70.0</div>
             </div>
             <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
-                <div class="product"> <img src="https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              <div class="product"> <img src="./ring/Screenshot 2024-10-30 114645.png"   alt="">
+                
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                         <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
                         <li class="icon mx-3"><span class="far fa-heart"></span></li>
@@ -223,7 +327,7 @@
         </div>
         <div class="row">
             <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
-                <div class="product"> <img src="https://images.pexels.com/photos/54203/pexels-photo-54203.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="product"> <img src="./ring/Screenshot 2024-10-30 114920.png"  alt="">
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                         <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
                         <li class="icon mx-3"><span class="far fa-heart"></span></li>
@@ -236,7 +340,7 @@
                 <div class="price">$ 60.0</div>
             </div>
             <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
-                <div class="product"> <img src="https://images.pexels.com/photos/6764040/pexels-photo-6764040.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              <div class="product"> <img src="./ring/e000c69162702b4a39688d3511342af6.jpg"  alt=""> 
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                         <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
                         <li class="icon mx-3"><span class="far fa-heart"></span></li>
@@ -249,7 +353,7 @@
                 <div class="price">$ 55.0</div>
             </div>
             <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
-                <div class="product"> <img src="https://images.pexels.com/photos/914668/pexels-photo-914668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="product"> <img src="./ring/e6d566e610479894c4529251000a2811.jpg"  alt="">
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                         <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
                         <li class="icon mx-3"><span class="far fa-heart"></span></li>
@@ -261,7 +365,7 @@
                 <div class="price">$ 70.0</div>
             </div>
             <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
-                <div class="product"> <img src="https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="product"> <img src="./ring/Screenshot 2024-10-30 115532.png"  alt="">
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                         <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
                         <li class="icon mx-3"><span class="far fa-heart"></span></li>
@@ -276,6 +380,92 @@
         </div>
     </div>
 </section>
+
+
+
+
+<!-- marquee -->
+
+<marquee behavior="" direction="">
+  <div class="flex gap-20 mt-[100px]">
+<img src="./ring/7ff0c9390bb0dc01f1085fd9d8957f54.jpg" class="h-[300px] w-[400px]" alt="">
+<img src="./ring/1015a3c5487328736ce02628e9efce8f.jpg" class="h-[300px] w-[400px]" alt="">
+<img src="./ring/7ff0c9390bb0dc01f1085fd9d8957f54.jpg" class="h-[300px] w-[400px]" alt="">
+<img src="./ring/7ff0c9390bb0dc01f1085fd9d8957f54.jpg" class="h-[300px] w-[400px]" alt="">
+<img src="./ring/7ff0c9390bb0dc01f1085fd9d8957f54.jpg" class="h-[300px] w-[400px]" alt="">
+<img src="./ring/7ff0c9390bb0dc01f1085fd9d8957f54.jpg" class="h-[300px] w-[400px]" alt="">
+<img src="./ring/7ff0c9390bb0dc01f1085fd9d8957f54.jpg" class="h-[300px] w-[400px]" alt="">
+<img src="./ring/7ff0c9390bb0dc01f1085fd9d8957f54.jpg" class="h-[300px] w-[400px]" alt="">
+
+
+</marquee>
+
+<marquee behavior="" direction="">
+
+  <div>
+    <p>Discount 10%</p>
+  </div>
+</marquee>
+
+
+<button class="btn btn-warning w-[200px]  text-[20px] mt-[100px] mx-auto flex justify-center mb-[100px]"><a href="./index.html">Back Home page</a></button>
+
+<!-- footer -->
+
+
+<footer class="footer bg-black text-[white] p-10 ">
+
+  <nav>
+    <div>
+      <h1 class="w-[300px]  text-[white] text-[35px] italic ">Women Weakness</h1>
+
+      <p class="text-[white] font-bold">Quick Contact</p>
+      <span class="text-[white] text-[28px]">(+880)-1757198961 </span>
+        <div class="flex gap-4 mt-5">
+          <i class="text-[white] text-[35px]  fa fa-facebook-official" aria-hidden="true">  </i>
+          <i class="text-[white] text-[35px] fa fa-twitter-square" aria-hidden="true"></i>
+          <i class="text-[white] text-[35px] fa fa-instagram" aria-hidden="true"></i>
+          <i class="text-[white] text-[35px] fa fa-youtube-play" aria-hidden="true"></i>
+        </div>
+
+  </nav>
+
+  
+  <nav>
+    <h6 class="footer-title">Services</h6>
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </nav>
+
+
+  <nav>
+    <h6 class="footer-title">Company</h6>
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Press kit</a>
+  </nav>
+
+
+  <nav>
+    <h6 class="footer-title">Legal</h6>
+    <a class="link link-hover">Terms of use</a>
+    <a class="link link-hover">Privacy policy</a>
+    <a class="link link-hover">Cookie policy</a>
+  </nav>
+</footer>
+
+
+<footer class="footer bg-black text-[white] border-base-300 border-t px-10 py-4  flex justify-center">
+  <div class="flex gap-2" >
+
+  <i class="fa fa-copyright  text-[25px]" aria-hidden="true"></i> <p class="text-[28px]">copyright 2024 WOMEN'S WEAKNESS made by Nusrat </p ><i class="fa fa-heart text-[green]  text-[25px]" aria-hidden="true"></i><p class="text-[32px]">Jahan</p>
+</div>
+</footer>
+
+
 
     <!-- Bootstrap 5 JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
